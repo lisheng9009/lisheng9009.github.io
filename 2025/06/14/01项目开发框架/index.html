@@ -6,20 +6,44 @@
   
   <title>01项目开发框架 | 欢迎来到Amos个人世界</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="开发流程  角色分工  苍穹外卖项目介绍定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品  管理端 - 外卖商家使用  用户端 - 点餐用户使用   功能架构：体现项目中的业务功能模块   产品原型产品原型：用于展示项目的业务功能，一般由产品经理进行设计   技术选型技术选型：展示项目中使用到的技术框架和中间件等  1">
+  <meta name="description" content="1.开发流程  2.角色分工  3.苍穹外卖3.1项目介绍定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品  管理端 - 外卖商家使用  用户端 - 点餐用户使用   功能架构：体现项目中的业务功能模块   3.2产品原型产品原型：用于展示项目的业务功能，一般由产品经理进行设计   3.3技术选型技术选型：展示项目中使用到的技术框架和中间件等  3.4整体结构  4.环境搭建4.1前端环境搭建">
 <meta property="og:type" content="article">
 <meta property="og:title" content="01项目开发框架">
 <meta property="og:url" content="https://lisheng9009.github.io/2025/06/14/01%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/index.html">
 <meta property="og:site_name" content="欢迎来到Amos个人世界">
-<meta property="og:description" content="开发流程  角色分工  苍穹外卖项目介绍定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品  管理端 - 外卖商家使用  用户端 - 点餐用户使用   功能架构：体现项目中的业务功能模块   产品原型产品原型：用于展示项目的业务功能，一般由产品经理进行设计   技术选型技术选型：展示项目中使用到的技术框架和中间件等  1">
+<meta property="og:description" content="1.开发流程  2.角色分工  3.苍穹外卖3.1项目介绍定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品  管理端 - 外卖商家使用  用户端 - 点餐用户使用   功能架构：体现项目中的业务功能模块   3.2产品原型产品原型：用于展示项目的业务功能，一般由产品经理进行设计   3.3技术选型技术选型：展示项目中使用到的技术框架和中间件等  3.4整体结构  4.环境搭建4.1前端环境搭建">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.png">
 <meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/%E8%A7%92%E8%89%B2%E5%88%86%E5%B7%A5.png">
 <meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/%E5%8A%9F%E8%83%BD%E6%9E%B6%E6%9E%84.png">
 <meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B.png">
 <meta property="og:image" content="https://lisheng9009.github.io/images/%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.png">
+<meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/%E6%95%B4%E4%BD%93%E7%BB%93%E6%9E%84.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221106202239828.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615105928874.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107092342140.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107092540194.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107093606590.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107094611987.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107094852361.png">
+<meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/image-20250615154728000.png">
+<meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/image-20250615154845271.png">
+<meta property="og:image" content="https://lisheng9009.github.io/2025/06/14/images/image-20250615155707627.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615155907991.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615160325337.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615160756356.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615162354128.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615161508260.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615162526275.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615162647457.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615163434030.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107101030138.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107101238205.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20250615164358786.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107105103816.png">
+<meta property="og:image" content="https://lisheng9009.github.io/images/image-20221107110539832-1749977302122-22.png">
 <meta property="article:published_time" content="2025-06-14T14:35:54.000Z">
-<meta property="article:modified_time" content="2025-06-15T02:02:46.725Z">
+<meta property="article:modified_time" content="2025-06-15T13:18:32.169Z">
 <meta property="article:author" content="Amos Li">
 <meta property="article:tag" content="NO.1苍穹外卖">
 <meta name="twitter:card" content="summary">
@@ -106,11 +130,11 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="开发流程"><a href="#开发流程" class="headerlink" title="开发流程"></a>开发流程</h1><img src="./../images/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.png" alt="开发流程" style="zoom: 67%;" />
+        <h1 id="1-开发流程"><a href="#1-开发流程" class="headerlink" title="1.开发流程"></a>1.开发流程</h1><img src="./../images/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.png" alt="开发流程" style="zoom: 67%;" />
 
-<h1 id="角色分工"><a href="#角色分工" class="headerlink" title="角色分工"></a>角色分工</h1><img src="./../images/%E8%A7%92%E8%89%B2%E5%88%86%E5%B7%A5.png" alt="角色分工" style="zoom: 67%;" />
+<h1 id="2-角色分工"><a href="#2-角色分工" class="headerlink" title="2.角色分工"></a>2.角色分工</h1><img src="./../images/%E8%A7%92%E8%89%B2%E5%88%86%E5%B7%A5.png" alt="角色分工" style="zoom: 67%;" />
 
-<h1 id="苍穹外卖"><a href="#苍穹外卖" class="headerlink" title="苍穹外卖"></a>苍穹外卖</h1><h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品</p>
+<h1 id="3-苍穹外卖"><a href="#3-苍穹外卖" class="headerlink" title="3.苍穹外卖"></a>3.苍穹外卖</h1><h2 id="3-1项目介绍"><a href="#3-1项目介绍" class="headerlink" title="3.1项目介绍"></a>3.1项目介绍</h2><p>定位：专门为餐饮企业（餐厅、饭店）定制的一款软件产品</p>
 <ul>
 <li><p>管理端 - 外卖商家使用</p>
 </li>
@@ -120,12 +144,289 @@
 <p>功能架构：体现项目中的业务功能模块</p>
 <img src="./../images/%E5%8A%9F%E8%83%BD%E6%9E%B6%E6%9E%84.png" alt="功能架构" style="zoom:67%;" />
 
-<h2 id="产品原型"><a href="#产品原型" class="headerlink" title="产品原型"></a>产品原型</h2><p>产品原型：用于展示项目的业务功能，一般由产品经理进行设计</p>
+<h2 id="3-2产品原型"><a href="#3-2产品原型" class="headerlink" title="3.2产品原型"></a>3.2产品原型</h2><p>产品原型：用于展示项目的业务功能，一般由产品经理进行设计</p>
 <img src="./../images/%E4%BA%A7%E5%93%81%E5%8E%9F%E5%9E%8B.png" alt="产品原型" style="zoom: 50%;" />
 
-<h2 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h2><p>技术选型：展示项目中使用到的技术框架和中间件等</p>
+<h2 id="3-3技术选型"><a href="#3-3技术选型" class="headerlink" title="3.3技术选型"></a>3.3技术选型</h2><p>技术选型：展示项目中使用到的技术框架和中间件等</p>
 <p><img src="/./../images/%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.png" alt="技术选型"></p>
-<p>1</p>
+<h2 id="3-4整体结构"><a href="#3-4整体结构" class="headerlink" title="3.4整体结构"></a>3.4整体结构</h2><img src="./../images/%E6%95%B4%E4%BD%93%E7%BB%93%E6%9E%84.png" alt="整体结构" style="zoom:67%;" />
+
+<h1 id="4-环境搭建"><a href="#4-环境搭建" class="headerlink" title="4.环境搭建"></a>4.环境搭建</h1><h2 id="4-1前端环境搭建"><a href="#4-1前端环境搭建" class="headerlink" title="4.1前端环境搭建"></a>4.1前端环境搭建</h2><p>从资料中找到前端运行环境的nginx，移动到<strong>非中文目录</strong>下。</p>
+<p><img src="/./../images/image-20221106202239828.png" alt="nginx环境1"></p>
+<p><strong>sky</strong>目录中存放了管理端的前端资源，具体如下：</p>
+<p><img src="/./../images/image-20250615105928874.png" alt="nginx环境2"></p>
+<p>**快速访问：**双击 nginx.exe 即可启动 nginx 服务，访问端口号为 80</p>
+<p><a target="_blank" rel="noopener" href="http://localhost/">http://localhost:80</a></p>
+<h2 id="4-2后端环境搭建"><a href="#4-2后端环境搭建" class="headerlink" title="4.2后端环境搭建"></a>4.2后端环境搭建</h2><h3 id="4-2-1-项目结构"><a href="#4-2-1-项目结构" class="headerlink" title="4.2.1 项目结构"></a>4.2.1 项目结构</h3><p>后端工程基于 maven 进行项目构建，并且进行分模块开发。</p>
+<p><strong>1). 从当天资料中找到后端初始工程：</strong></p>
+<p><img src="/./../images/image-20221107092342140.png" alt="后端初始工程1"></p>
+<p><strong>2). 用 IDEA 打开初始工程，了解项目的整体结构：</strong></p>
+<p><img src="/./../images/image-20221107092540194.png" alt="后端初始工程2"></p>
+<p>对工程的每个模块作用说明：</p>
+<table>
+<thead>
+<tr>
+<th><strong>序号</strong></th>
+<th><strong>名称</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>sky-take-out</td>
+<td>maven父工程，统一管理依赖版本，聚合其他子模块</td>
+</tr>
+<tr>
+<td>2</td>
+<td>sky-common</td>
+<td>子模块，存放公共类，例如：工具类、常量类、异常类等</td>
+</tr>
+<tr>
+<td>3</td>
+<td>sky-pojo</td>
+<td>子模块，存放实体类、VO、DTO等</td>
+</tr>
+<tr>
+<td>4</td>
+<td>sky-server</td>
+<td>子模块，后端服务，存放配置文件、Controller、Service、Mapper等</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p><strong>sky-common:</strong> 模块中存放的是一些公共类，可以供其他模块使用</p>
+<p><img src="/./../images/image-20221107093606590.png" alt="sky-common"></p>
+<p>分析sky-common模块的每个包的作用：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>constant</td>
+<td>存放相关常量类</td>
+</tr>
+<tr>
+<td>context</td>
+<td>存放上下文类</td>
+</tr>
+<tr>
+<td>enumeration</td>
+<td>项目的枚举类存储</td>
+</tr>
+<tr>
+<td>exception</td>
+<td>存放自定义异常类</td>
+</tr>
+<tr>
+<td>json</td>
+<td>处理json转换的类</td>
+</tr>
+<tr>
+<td>properties</td>
+<td>存放SpringBoot相关的配置属性类</td>
+</tr>
+<tr>
+<td>result</td>
+<td>返回结果类的封装</td>
+</tr>
+<tr>
+<td>utils</td>
+<td>常用工具类</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>sky-pojo:</strong> 模块中存放的是一些 entity、DTO、VO</p>
+<p><img src="/./../images/image-20221107094611987.png" alt="sky-pojo"></p>
+<p>分析sky-pojo模块的每个包的作用：</p>
+<table>
+<thead>
+<tr>
+<th><strong>名称</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Entity</td>
+<td>实体，通常和数据库中的表对应</td>
+</tr>
+<tr>
+<td>DTO</td>
+<td>数据传输对象，通常用于程序中各层之间传递数据</td>
+</tr>
+<tr>
+<td>VO</td>
+<td>视图对象，为前端展示数据提供的对象</td>
+</tr>
+<tr>
+<td>POJO</td>
+<td>普通Java对象，只有属性和对应的getter和setter</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>sky-server:</strong> 模块中存放的是 配置文件、配置类、拦截器、controller、service、mapper、启动类等</p>
+<p><img src="/./../images/image-20221107094852361.png" alt="sky-server"></p>
+<p>分析sky-server模块的每个包的作用：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>config</td>
+<td>存放配置类</td>
+</tr>
+<tr>
+<td>controller</td>
+<td>存放controller类</td>
+</tr>
+<tr>
+<td>interceptor</td>
+<td>存放拦截器类</td>
+</tr>
+<tr>
+<td>mapper</td>
+<td>存放mapper接口</td>
+</tr>
+<tr>
+<td>service</td>
+<td>存放service类</td>
+</tr>
+<tr>
+<td>SkyApplication</td>
+<td>启动类</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h3 id="4-2-2-Git版本控制"><a href="#4-2-2-Git版本控制" class="headerlink" title="4.2.2 Git版本控制"></a>4.2.2 Git版本控制</h3><p><strong>1). 创建Git本地仓库</strong>（项目根目录下隐藏文件”.git”）</p>
+<img src="./../images/image-20250615154728000.png" alt="Git本地仓库1" style="zoom: 67%;" />
+
+<img src="./../images/image-20250615154845271.png" alt="Git本地仓库2" style="zoom:50%;" />
+
+<p><strong>2). 创建Git远程仓库</strong></p>
+<p>访问<a target="_blank" rel="noopener" href="https://gitee.com/%EF%BC%8C%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93">https://gitee.com/，新建仓库</a></p>
+<img src="./../images/image-20250615155707627.png" alt="Git远程仓库1" style="zoom: 67%;" />
+
+<p><img src="/./../images/image-20250615155907991.png" alt="Git远程仓库2"></p>
+<p><strong>3). 将本地文件推送到Git远程仓库</strong></p>
+<ol>
+<li><p><strong>提交文件至本地仓库</strong></p>
+<p>忽略以下类型文件</p>
+<p><img src="/./../images/image-20250615160325337.png" alt="忽略文件类型"></p>
+<p>开始提交</p>
+<p><img src="/./../images/image-20250615160756356.png" alt="选择文件提交"></p>
+</li>
+<li><p><strong>添加Git远程仓库地址</strong></p>
+<p>复制远程地址：</p>
+<p><img src="/./../images/image-20250615162354128.png" alt="远程仓库地址"></p>
+<p>添加地址：</p>
+<p><img src="/./../images/image-20250615161508260.png" alt="添加仓库地址1"></p>
+<p><img src="/./../images/image-20250615162526275.png" alt="粘贴地址链接"></p>
+</li>
+<li><p><strong>推送</strong></p>
+</li>
+</ol>
+<p><img src="/./../images/image-20250615162647457.png" alt="推送本地到远程"></p>
+<p>成功推送至远程仓库</p>
+<p><img src="/./../images/image-20250615163434030.png" alt="推送成功"></p>
+<h3 id="4-2-3-数据库环境搭建"><a href="#4-2-3-数据库环境搭建" class="headerlink" title="4.2.3 数据库环境搭建"></a>4.2.3 数据库环境搭建</h3><ol>
+<li><strong>从资料中找到sky.sql</strong></li>
+</ol>
+<p><img src="/./../images/image-20221107101030138.png" alt="sky.sql"></p>
+<p>直接打开sky.sql文件</p>
+<p><img src="/./../images/image-20221107101238205.png" alt="image-20221107101238205"></p>
+<p>通过该sql文件直接可创建数据库，所以不需要提前创建数据库，直接导入该文件执行即可。</p>
+<ol start="2">
+<li><p><strong>在SQLyog执行sky.sql文件</strong></p>
+<p><img src="/./../images/image-20250615164358786.png" alt="导入sql脚本"></p>
+</li>
+</ol>
+<p>执行完成后，共创建出11张表</p>
+<p><img src="/./../images/image-20221107105103816.png" alt="数据库表"></p>
+<p>每张表的说明：</p>
+<table>
+<thead>
+<tr>
+<th><strong>序号</strong></th>
+<th><strong>表名</strong></th>
+<th><strong>中文名</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>employee</td>
+<td>员工表</td>
+</tr>
+<tr>
+<td>2</td>
+<td>category</td>
+<td>分类表</td>
+</tr>
+<tr>
+<td>3</td>
+<td>dish</td>
+<td>菜品表</td>
+</tr>
+<tr>
+<td>4</td>
+<td>dish_flavor</td>
+<td>菜品口味表</td>
+</tr>
+<tr>
+<td>5</td>
+<td>setmeal</td>
+<td>套餐表</td>
+</tr>
+<tr>
+<td>6</td>
+<td>setmeal_dish</td>
+<td>套餐菜品关系表</td>
+</tr>
+<tr>
+<td>7</td>
+<td>user</td>
+<td>用户表</td>
+</tr>
+<tr>
+<td>8</td>
+<td>address_book</td>
+<td>地址表</td>
+</tr>
+<tr>
+<td>9</td>
+<td>shopping_cart</td>
+<td>购物车表</td>
+</tr>
+<tr>
+<td>10</td>
+<td>orders</td>
+<td>订单表</td>
+</tr>
+<tr>
+<td>11</td>
+<td>order_detail</td>
+<td>订单明细表</td>
+</tr>
+</tbody></table>
+<h3 id="4-2-4-前后端互通"><a href="#4-2-4-前后端互通" class="headerlink" title="4.2.4 前后端互通"></a>4.2.4 前后端互通</h3><p>后端的初始工程中已经实现了<strong>登录</strong>功能，直接进行前后端联调测试即可</p>
+<p>实现思路：</p>
+<p><img src="/./../images/image-20221107110539832-1749977302122-22.png" alt="互通流程"></p>
+<p><strong>1.Controller层</strong></p>
+<p>在sky-server模块中，com.sky.controller.admin.EmployeeController</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 员工管理</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@RestController</span> <span class="comment">//组合注解，相当于 @Controller + @ResponseBody，表示这是一个 RESTful 控制器，所有方法的返回值都会自动序列化为 JSON</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/admin/employee&quot;)</span> <span class="comment">//定义基础路径，所有方法都会继承这个路径前缀</span></span><br><span class="line"><span class="meta">@Slf4j</span> <span class="comment">//Lombok 注解，自动生成日志记录器</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">EmployeeController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span> <span class="comment">//依赖注入DI</span></span><br><span class="line">    <span class="keyword">private</span> EmployeeService employeeService; <span class="comment">//业务逻辑服务层接口</span></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> JwtProperties jwtProperties;<span class="comment">//JWT 配置类（通常包含密钥和过期时间等配置）</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 登录</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> employeeLoginDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment">    @PostMapping(&quot;/login&quot;)：处理 POST 请求，完整路径为 /admin/employee/login</span></span><br><span class="line"><span class="comment">    @RequestBody：将请求体中的 JSON 自动绑定到 EmployeeLoginDTO 对象</span></span><br><span class="line"><span class="comment">    Result&lt;EmployeeLoginVO&gt;：通用返回结果封装，包含登录返回数据</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="meta">@PostMapping(&quot;/login&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;EmployeeLoginVO&gt; <span class="title function_">login</span><span class="params">(<span class="meta">@RequestBody</span> EmployeeLoginDTO employeeLoginDTO)</span> &#123;</span><br><span class="line">        log.info(<span class="string">&quot;员工登录：&#123;&#125;&quot;</span>, employeeLoginDTO);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//调用服务层验证登录 服务层负责验证用户名密码（通常会加密比对）</span></span><br><span class="line">        <span class="type">Employee</span> <span class="variable">employee</span> <span class="operator">=</span> employeeService.login(employeeLoginDTO);</span><br><span class="line"></span><br><span class="line">        <span class="comment">/*</span></span><br><span class="line"><span class="comment">        创建 JWT 声明(claims)，存储员工ID</span></span><br><span class="line"><span class="comment">        使用工具类生成令牌</span></span><br><span class="line"><span class="comment">        参数说明：</span></span><br><span class="line"><span class="comment">        adminSecretKey：JWT 加密密钥（从配置读取）</span></span><br><span class="line"><span class="comment">        adminTtl：令牌有效期（如 2 小时）</span></span><br><span class="line"><span class="comment">        claims：包含员工ID的自定义数据</span></span><br><span class="line"><span class="comment">        * */</span></span><br><span class="line">        <span class="comment">//登录成功后，生成jwt令牌</span></span><br><span class="line">        Map&lt;String, Object&gt; claims = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;&gt;();</span><br><span class="line">        claims.put(JwtClaimsConstant.EMP_ID, employee.getId());</span><br><span class="line">        <span class="type">String</span> <span class="variable">token</span> <span class="operator">=</span> JwtUtil.createJWT(</span><br><span class="line">                jwtProperties.getAdminSecretKey(),</span><br><span class="line">                jwtProperties.getAdminTtl(),</span><br><span class="line">                claims);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//构建返回对象</span></span><br><span class="line">        <span class="comment">/*</span></span><br><span class="line"><span class="comment">        使用建造者模式创建视图对象（VO）</span></span><br><span class="line"><span class="comment">        包含员工基本信息和生成的 token</span></span><br><span class="line"><span class="comment">        * */</span></span><br><span class="line">        <span class="type">EmployeeLoginVO</span> <span class="variable">employeeLoginVO</span> <span class="operator">=</span> EmployeeLoginVO.builder()</span><br><span class="line">                .id(employee.getId())</span><br><span class="line">                .userName(employee.getUsername())</span><br><span class="line">                .name(employee.getName())</span><br><span class="line">                .token(token)</span><br><span class="line">                .build();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> Result.success(employeeLoginVO);<span class="comment">//返回成功响应</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 退出</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment">    简化实现：直接返回成功（实际项目中可能需要处理 token 失效逻辑）</span></span><br><span class="line"><span class="comment">    安全考虑：真正的退出应该在客户端删除 token，服务端无需处理状态（JWT 无状态特性）</span></span><br><span class="line"><span class="comment">    * */</span></span><br><span class="line">    <span class="meta">@PostMapping(&quot;/logout&quot;)</span> <span class="comment">//退出接口</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">logout</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>2.Service层</strong></p>
+<p>在sky-server模块中，com.sky.service.impl.EmployeeServiceImpl</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span> <span class="comment">//Spring 注解，标记这是一个服务层组件，会被自动扫描并注册为 Bean</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">EmployeeServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">EmployeeService</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span> <span class="comment">//DI</span></span><br><span class="line">    <span class="keyword">private</span> EmployeeMapper employeeMapper; <span class="comment">//实现了 EmployeeService 接口，遵循面向接口编程原则</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 员工登录</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> employeeLoginDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="comment">//登录方法实现</span></span><br><span class="line">    <span class="keyword">public</span> Employee <span class="title function_">login</span><span class="params">(EmployeeLoginDTO employeeLoginDTO)</span> &#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">username</span> <span class="operator">=</span> employeeLoginDTO.getUsername();</span><br><span class="line">        <span class="type">String</span> <span class="variable">password</span> <span class="operator">=</span> employeeLoginDTO.getPassword();</span><br><span class="line"></span><br><span class="line">        <span class="comment">//1、根据用户名查询数据库中的数据</span></span><br><span class="line">        <span class="type">Employee</span> <span class="variable">employee</span> <span class="operator">=</span> employeeMapper.getByUsername(username);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//2、处理各种异常情况（用户名不存在、密码不对、账号被锁定）</span></span><br><span class="line">        <span class="keyword">if</span> (employee == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="comment">//账号不存在</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">AccountNotFoundException</span>(MessageConstant.ACCOUNT_NOT_FOUND);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//密码比对</span></span><br><span class="line">        <span class="comment">// TODO 后期需要进行md5加密，然后再进行比对</span></span><br><span class="line">        <span class="keyword">if</span> (!password.equals(employee.getPassword())) &#123;</span><br><span class="line">            <span class="comment">//密码错误</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">PasswordErrorException</span>(MessageConstant.PASSWORD_ERROR);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (employee.getStatus() == StatusConstant.DISABLE) &#123;</span><br><span class="line">            <span class="comment">//账号被锁定</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">AccountLockedException</span>(MessageConstant.ACCOUNT_LOCKED);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//3、返回实体对象</span></span><br><span class="line">        <span class="keyword">return</span> employee;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>3.Mapper层</strong></p>
+<p>在sky-server模块中，com.sky.mapper.EmployeeMapper</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">EmployeeMapper</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据用户名查询员工</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> username</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Select(&quot;select * from employee where username = #&#123;username&#125;&quot;)</span></span><br><span class="line">    Employee <span class="title function_">getByUsername</span><span class="params">(String username)</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
